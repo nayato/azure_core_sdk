@@ -1,0 +1,33 @@
+[package]
+name = "azure_core_sdk"
+description = "Core library for the Azure SDK for Rust"
+version = "0.1.0"
+
+readme         = "README.md"
+authors        = ["Francesco Cogno <francesco.cogno@outlook.com>"]
+license        = "MIT"
+repository     = "https://github.com/MindFlavor/azure_core_sdk"
+documentation  = "https://docs.rs/azure_core_sdk"
+homepage       = "https://github.com/MindFlavor/azure_core_sdk"
+
+keywords       = ["sdk", "azure", "rest", "iot", "cloud"]
+categories     = ["api-bindings"]
+
+[dependencies]
+RustyXML       = "*"
+base64         = "*"
+chrono         = "*"
+env_logger     = "*"
+futures        = "*"
+hyper          = "*"
+hyper-tls      = "*"
+log            = "*"
+mime           = "*"
+native-tls     = "*"
+quick-error    = "*"
+rust-crypto    = "*"
+serde          = "*"
+serde_derive   = "*"
+serde_json     = "*"
+url            = "*"
+uuid           = "*"
