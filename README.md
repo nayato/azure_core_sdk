@@ -1,5 +1,5 @@
-# azure_sdk_for_rust_core
-Core library for the Azure SDK for Rust
+# azure_core_sdk
+Core library for the unofficial Azure SDK for Rust
 
 ## Placeholder
 
